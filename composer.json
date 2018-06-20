@@ -1,0 +1,25 @@
+{
+    "name": "technodelight/bytes-in-human",
+    "description": "Render bytes in human readable format wby using a simple value object",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Gál",
+            "email": "zenc@zenc.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Technodelight\\BytesInHuman\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">= 5.3||>=7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3"
+    }
+}
